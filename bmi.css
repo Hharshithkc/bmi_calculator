@@ -1,0 +1,619 @@
+.main{
+    background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  
+}
+
+
+.main2{
+    backdrop-filter: blur(9px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ;
+    height: 900px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 3;
+    width: 900px;
+
+    margin-left: 370px;
+} 
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 200px;
+}
+
+
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 700px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+
+
+#i1{
+    font-size: 50px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+    
+#i2{
+    
+    font-size: 50px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 100px
+}
+
+
+#i3{
+    
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 200px
+}
+
+
+
+
+
+
+
+
+
+/* resopnsivenss */
+
+@media(min-width:300px)
+{
+    
+ .main{
+     background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");  
+    /* background-color: aqua; */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 380px;
+  
+}
+
+
+.main2{
+
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ;
+    height: 1000px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 1;
+    width: 330px;
+    /* background-color: black; */
+    margin-left: 20px;
+} 
+ 
+
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+
+
+#i1{
+    font-size: 25px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 1px;
+}
+    
+#i2{
+    
+    font-size: 25px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 270px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 1px
+}
+
+
+#i3{
+    
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 20px
+}
+
+
+}
+
+
+/* for 400 */
+
+@media(min-width:400px)
+{
+    
+ .main{
+     background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");  
+    /* background-color: aqua;  */
+    background-size: cover;
+    background-repeat:repeat-y;
+    z-index: -1;
+    height: 100%;
+    width:400px;
+  
+}
+
+
+.main2{
+
+    /* backdrop-filter: blur(6px); */
+    /* box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ; */
+    height: 1100px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 1;
+    width: 350px;
+    /* background-color: black; */
+    margin-left: 20px;
+} 
+ 
+
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+
+
+#i1{
+    font-size: 25px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+    
+#i2{
+    
+    font-size: 25px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px
+}
+
+
+#i3{
+    
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 20px
+}
+
+}
+
+
+
+@media(min-width:500px)
+{
+    
+ .main{
+     background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");  
+    /* background-color: aqua; */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 530px;
+  
+}
+
+
+.main2{
+
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ;
+    height: 900px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 1;
+    width: 420px;
+    /* background-color: black; */
+    margin-left: 50px;
+} 
+ 
+
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+
+
+#i1{
+    font-size: 30px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 360px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+    
+#i2{
+    
+    font-size: 30px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 360px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px
+}
+
+
+#i3{
+    
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 60px
+}
+
+}
+
+
+
+
+
+
+@media(min-width:700px)
+{
+    
+ .main{
+     background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");  
+    /* background-color: aqua; */ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 900px;
+  
+}
+
+
+.main2{
+
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ;
+    height: 1000px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 1;
+    width: 620px;
+    /* background-color: black; */
+    margin-left: 70px;
+} 
+ 
+
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:800;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+
+
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 200px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+
+
+#i1{
+    font-size: 40px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 560px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px;
+}
+    
+#i2{
+    
+    font-size: 40px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 560px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 10px
+}
+
+
+#i3{
+    
+    font-size: 30px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60px;
+    width: 350px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 60px
+}
+
+}
+
+
+
+
+
+@media(min-width:900px)
+
+
+{
+.main{
+    background-image:url("https://th.bing.com/th/id/OIP.wXSCoGH2STbxij_frdXbfAHaEV?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  
+}
+
+.main2{
+    backdrop-filter: blur(9px);
+    box-shadow: 0px 0px 30px rgba(227,228,237,03.7) ;
+    height: 900px;
+    border: 5px solid rgba(163, 157, 157, 0.98);
+    z-index: 3;
+    width: 900px;
+
+    margin-left: 370px;
+} 
+
+/* heading */
+.heading{
+    /* background-color: aqua; */
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    margin-left: 200px;
+}
+
+.inputs
+{
+    display: flex;
+ /* background-color: red;   */
+    margin-top:100px;
+    height: 700px;
+    width: 700px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+#i1{
+    font-size: 50px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 100px;
+}
+
+#i2{
+    
+    font-size: 50px;
+    color:black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    width: 600px;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 100px
+}
+
+
+#i3{
+    
+    font-size: 40px;
+    color: black;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+    border: 3px solid black;
+    margin-left: 200px
+}
+
+}
